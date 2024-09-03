@@ -4,9 +4,59 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+<style>
+	  .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            height: 100vh;
+            padding: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .hero a {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero a:hover {
+            background-color: #0056b3;
+        }
+
+</style>
 </head>
 
 <body>
+	<div class="hero">
+		<img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Hero image" width="600px"height="400px" object-fit="cover">
+		
+	<h1>Welcome to  my pinterest clone</h1> 	
+		<p>Discover new inspiration and save your favourite ideas</p>
+	<a href=#explore>Explore now</a>
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
